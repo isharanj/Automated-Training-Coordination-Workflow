@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 640" font-family="Arial, Helvetica, sans-serif" font-size="13">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#555"/></marker>
+  </defs>
+  <rect width="980" height="640" fill="#ffffff"/>
+  <text x="490" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">Training Coordination: Before vs After</text>
+
+  <!-- BEFORE -->
+  <text x="20" y="62" font-size="15" font-weight="bold" fill="#b3261e">BEFORE: 12 manual steps per registrant</text>
+  <g fill="#fdecea" stroke="#b3261e" stroke-width="1.2">
+    <rect x="20" y="75" width="140" height="48" rx="6"/><rect x="190" y="75" width="140" height="48" rx="6"/><rect x="360" y="75" width="140" height="48" rx="6"/><rect x="530" y="75" width="140" height="48" rx="6"/><rect x="700" y="75" width="140" height="48" rx="6"/><rect x="870" y="75" width="95" height="48" rx="6"/>
+    <rect x="20" y="150" width="140" height="48" rx="6"/><rect x="190" y="150" width="140" height="48" rx="6"/><rect x="360" y="150" width="140" height="48" rx="6"/><rect x="530" y="150" width="140" height="48" rx="6"/><rect x="700" y="150" width="140" height="48" rx="6"/><rect x="870" y="150" width="95" height="48" rx="6"/>
+  </g>
+  <g fill="#222" text-anchor="middle">
+    <text x="90" y="95">1 Read form</text><text x="90" y="111">response</text>
+    <text x="260" y="95">2 Find session</text><text x="260" y="111">in Excel</text>
+    <text x="430" y="95">3 Check</text><text x="430" y="111">capacity</text>
+    <text x="600" y="95">4 Add</text><text x="600" y="111">registrant row</text>
+    <text x="770" y="95">5 Update</text><text x="770" y="111">seats taken</text>
+    <text x="917" y="95">6 Create</text><text x="917" y="111">invite</text>
+    <text x="90" y="170">7 Send confirm /</text><text x="90" y="186">waitlist email</text>
+    <text x="260" y="170">8 Post in Teams</text><text x="260" y="186">channel</text>
+    <text x="430" y="170">9 Day-before</text><text x="430" y="186">reminders</text>
+    <text x="600" y="170">10 Update</text><text x="600" y="186">attendance</text>
+    <text x="770" y="170">11 Feedback /</text><text x="770" y="186">no-show email</text>
+    <text x="917" y="170">12 Notify</text><text x="917" y="186">manager</text>
+  </g>
+  <g stroke="#555" stroke-width="1.3" marker-end="url(#a)" fill="none">
+    <path d="M160 99H188"/><path d="M330 99H358"/><path d="M500 99H528"/><path d="M670 99H698"/><path d="M840 99H868"/>
+    <path d="M917 123V135H90V148"/>
+    <path d="M160 174H188"/><path d="M330 174H358"/><path d="M500 174H528"/><path d="M670 174H698"/><path d="M840 174H868"/>
+  </g>
+
+  <line x1="20" y1="235" x2="960" y2="235" stroke="#bbb" stroke-dasharray="6 4"/>
+
+  <!-- AFTER -->
+  <text x="20" y="266" font-size="15" font-weight="bold" fill="#1b7a3a">AFTER: 1 manual step (mark Attended / No-show)</text>
+
+  <g stroke="#1b7a3a" stroke-width="1.2">
+    <rect x="20" y="285" width="130" height="56" rx="6" fill="#e8f5ec"/>
+    <rect x="185" y="285" width="150" height="56" rx="6" fill="#e8f5ec"/>
+    <polygon points="440,280 515,313 440,346 365,313" fill="#fff8e1" stroke="#b08900"/>
+    <rect x="560" y="285" width="180" height="56" rx="6" fill="#e8f5ec"/>
+    <rect x="560" y="365" width="180" height="56" rx="6" fill="#fff3e0" stroke="#c46a00"/>
+  </g>
+  <g fill="#222" text-anchor="middle">
+    <text x="85" y="309">Employee submits</text><text x="85" y="325">Microsoft Form</text>
+    <text x="260" y="309">FLOW A: get session</text><text x="260" y="325">from SharePoint</text>
+    <text x="440" y="309">Seats</text><text x="440" y="325">available?</text>
+    <text x="650" y="305">Confirmed + SeatsTaken+1</text><text x="650" y="321">Outlook invite, Teams post</text>
+    <text x="650" y="385">Waitlisted</text><text x="650" y="401">+ waitlist email</text>
+    <text x="545" y="300" font-size="11" fill="#1b7a3a">Yes</text>
+    <text x="500" y="368" font-size="11" fill="#c46a00">No</text>
+  </g>
+  <g stroke="#555" stroke-width="1.3" marker-end="url(#a)" fill="none">
+    <path d="M150 313H183"/><path d="M335 313H363"/><path d="M515 313H558"/>
+    <path d="M440 346V393H558"/>
+  </g>
+
+  <g stroke="#1b7a3a" stroke-width="1.2">
+    <rect x="20" y="450" width="190" height="60" rx="6" fill="#e8f5ec"/>
+    <rect x="245" y="450" width="190" height="60" rx="6" fill="#e8f5ec"/>
+    <rect x="470" y="450" width="130" height="60" rx="6" fill="#ffffff" stroke="#b3261e" stroke-dasharray="5 3"/>
+    <rect x="635" y="450" width="330" height="60" rx="6" fill="#e8f5ec"/>
+    <rect x="20" y="540" width="945" height="50" rx="6" fill="#e8f5ec"/>
+  </g>
+  <g fill="#222" text-anchor="middle">
+    <text x="115" y="474">FLOW B (daily 9 AM)</text><text x="115" y="492">reminder to Confirmed</text>
+    <text x="340" y="474">Session delivered</text><text x="340" y="492">(Teams / in person)</text>
+    <text x="535" y="474" fill="#b3261e">MANUAL:</text><text x="535" y="492">set Status</text>
+    <text x="800" y="468">FLOW C (on change)</text><text x="800" y="486">Attended: feedback Form link</text><text x="800" y="502">No-show: follow-up + notify manager</text>
+    <text x="492" y="562">FLOW D (Monday): count registrations / no-shows / waitlist</text><text x="492" y="580">post summary to Teams or email training lead</text>
+  </g>
+  <g stroke="#555" stroke-width="1.3" marker-end="url(#a)" fill="none">
+    <path d="M650 341V348H115V448"/>
+    <path d="M210 480H243"/><path d="M435 480H468"/><path d="M600 480H633"/>
+  </g>
+
+  <text x="20" y="620" font-size="12" fill="#555">Failure handling on every flow: Try/Catch scopes, failure email to training lead. Concurrency = 1 on Flow A.</text>
+</svg>
